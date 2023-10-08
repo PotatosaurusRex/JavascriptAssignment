@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body style="background-image: url('movieBackground.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;">
+    <div style="text-align: center; background-color: white; width: 50%; border: 3px solid black; border-radius: 16px">
+        <h1 style="padding-top: 32px;">Movie Management System</h1>
+        <h4>Console displays javascript output... buttons below allow user input</h4>
+        
+        <div>
+            <button onclick="displayMovies()">Display Current Movies</button>
+            <button onclick="askMovie()">Add Movie</button>
+            <button onclick="askChange()">Change movie viewed</button>
+        </div>
+        
+        <p style="font-size: 18px; padding: 10px;" id="movies"></p>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
